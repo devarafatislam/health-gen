@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-gradient-to-br from-secondary/70 via-background to-background"
+      className="relative overflow-hidden bg-linear-to-br from-secondary/70 via-background to-background"
     >
       <div className="blob -left-32 top-10 size-96 bg-secondary" aria-hidden />
       <div className="blob -right-24 bottom-0 size-80 bg-accent" aria-hidden />
@@ -24,7 +24,7 @@ export function Hero() {
           </span>
           <h1 className="mt-6 max-w-2xl text-4xl font-extrabold leading-[1.08] tracking-[-0.045em] text-foreground sm:text-5xl lg:text-6xl">
             Take Control of Your Health,{" "}
-            <span className="bg-gradient-to-r from-primary-deep to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-deep to-primary bg-clip-text text-transparent">
               Every Day.
             </span>
           </h1>

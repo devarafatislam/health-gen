@@ -201,7 +201,7 @@ export function FeaturesSection() {
 /* ---------- E. App preview ---------- */
 export function AppPreviewSection() {
   return (
-    <section className="overflow-hidden bg-gradient-to-b from-surface to-background py-20 lg:py-28">
+    <section className="overflow-hidden bg-linear-to-b from-surface to-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeading
           title="Meet Your New Health Companion"
@@ -351,7 +351,7 @@ export function PrivacySection() {
             </div>
           ))}
         </div>
-        <div className="reveal mt-10 rounded-3xl border border-primary/20 bg-gradient-to-br from-secondary to-card p-7 shadow-sm sm:p-9">
+        <div className="reveal mt-10 rounded-3xl border border-primary/20 bg-linear-to-br from-secondary to-card p-7 shadow-sm sm:p-9">
           <h3 className="flex items-center gap-2 font-bold text-primary-deep">
             <ShieldCheck className="size-5" aria-hidden />
             Medical Safety Notice

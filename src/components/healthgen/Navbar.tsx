@@ -19,12 +19,12 @@ export function Navbar() {
     <header
       className={`sticky top-0 z-50 border-b transition-all duration-300 ${
         scrolled
-          ? "border-border/70 bg-background/85 shadow-sm shadow-foreground/[0.03] backdrop-blur-xl"
+          ? "border-border/70 bg-background/85 shadow-sm shadow-foreground/3 backdrop-blur-xl"
           : "border-transparent bg-background/70 backdrop-blur-md"
       }`}
     >
       <nav
-        className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between px-4 sm:px-6"
+        className="mx-auto flex h-18 max-w-7xl items-center justify-between px-4 sm:px-6"
         aria-label="Main"
       >
         <Logo />
