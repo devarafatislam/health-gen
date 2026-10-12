@@ -4,6 +4,11 @@ HealthGen is a responsive website for the HealthGen Android app, a smart health 
 
 **Live website:** [healthgen.codecraftor.dev](https://healthgen.codecraftor.dev)
 
+## Credits
+
+- **Created by:** Arafat Islam
+- **App owner:** CodeCraftor
+
 ## About the project
 
 The site introduces the HealthGen app, explains its features, and provides a direct download of the Android APK. It is built as a single-page experience with sections for the app overview, features, benefits, privacy information, frequently asked questions, and download instructions.
